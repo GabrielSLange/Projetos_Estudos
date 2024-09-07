@@ -1,0 +1,80 @@
+﻿@page "/products/edit/{id:int}"
+@inject NavigationManager _navigation
+@inject ApplicationDbContext _context
+@attribute [Authorize]
+@rendermode InteractiveServer
+
+<PageTitle>Editar Produto</PageTitle>
+
+@if (product is null)
+{
+    <p class="text-center">
+        <em>Produto não encontrado</em>
+    </p>
+}
+else
+{
+    <h1>@product.title (@product.id)</h1>
+    <hr />
+
+    <EditForm Model="@product" OnValidSubmit="OnValidSubmitAsync">
+        <DataAnnotationsValidator /><ValidationSummary />
+        <div class="mb-3">
+            <label class="form-label">Nome do Produto</label>
+            <InputText class="form-control" @bind-Value="product.title" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Descrição do Produto</label>
+            <InputText class="form-control" @bind-Value="product.description" />
+        </div>
+        <br />
+        <div class="mb-3">
+            <label class="form-label">Preço do Produto</label>
+            <InputNumber class="form-control" @bind-Value="product.price" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Categoria</label>
+            <InputSelect @bind-Value="product.categoryId" class="form-select">
+                @foreach (var entity in categories)
+                {
+                    <option value="@entity.id">@entity.title</option>
+                }
+            </InputSelect>
+        </div>
+        <button class="btn btn-primary" type="submit">Atualizar</button>
+        <a href="/products/index">Cancel</a>
+    </EditForm>
+}
+
+
+
+
+
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public Product? product { get; set; } = new();
+    public IEnumerable<Category> categories { get; set; } = Enumerable.Empty<Category>();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await _context.products
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.id == id);
+        categories = await _context
+            .categories
+            .AsNoTracking()
+            .OrderBy(x => x.title)
+            .ToListAsync();
+    }
+
+    public async Task OnValidSubmitAsync()
+    {
+        _context.products.Update(product);
+        await _context.SaveChangesAsync();
+        _navigation.NavigateTo("/products/index");
+    }
+}

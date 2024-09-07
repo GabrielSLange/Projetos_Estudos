@@ -1,0 +1,69 @@
+﻿@page "/products/index"
+
+@inject ApplicationDbContext _context
+@attribute [StreamRendering(true)]
+@attribute [Authorize]
+
+<PageTitle>Listar Produtos</PageTitle>
+
+<h1>Produtos</h1>
+<hr />
+
+<a href="/products/create" class="btn btn-primary">NOVO PRODUTO</a>
+<br />
+
+@if (!products.Any())
+{
+    <p class="text-center"><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Preço</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var entity in products)
+            {
+                <tr>
+                    <td>@entity.id</td> 
+                    <td>
+                        <a href="/products/@entity.id">
+                            @entity.title
+                        </a>
+                    </td>
+                    <td>@entity.category.title</td> 
+                    <td>@entity.price.ToString("C")</td>
+                    <td>
+                        <a href="/products/edit/@entity.id" class="btn btn-primary">EDITAR</a>
+                        &nbsp;&nbsp;
+                        <a href="/products/delete/@entity.id" class="btn btn-danger">EXCLUIR</a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+
+
+@code {
+    public IEnumerable<Product> products { get; set; } = Enumerable.Empty<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await _context
+            .products
+            .AsNoTracking()
+            .Include(x => x.category)
+            .ToListAsync();
+
+    }
+}

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamento do blazor server\\blazingshop\\pages\\products\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|solutionrelative:pages\\products\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamento do blazor server\\blazingshop\\pages\\products\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|solutionrelative:pages\\products\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamento do blazor server\\blazingshop\\pages\\products\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|solutionrelative:pages\\products\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamento do blazor server\\blazingshop\\pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B29B3A68-FAFB-4F56-A688-40D34D159F50}|BlazingShop.csproj|solutionrelative:pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Edit.razor",
+              "RelativeDocumentMoniker": "Pages\\Products\\Edit.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Edit.razor",
+              "RelativeToolTip": "Pages\\Products\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T01:22:16.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Delete.razor",
+              "RelativeDocumentMoniker": "Pages\\Products\\Delete.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Delete.razor",
+              "RelativeToolTip": "Pages\\Products\\Delete.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T01:42:28.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Products\\Index.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Index.razor",
+              "RelativeToolTip": "Pages\\Products\\Index.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T01:07:29.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Create.razor",
+              "RelativeDocumentMoniker": "Pages\\Products\\Create.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamento do Blazor Server\\BlazingShop\\Pages\\Products\\Create.razor",
+              "RelativeToolTip": "Pages\\Products\\Create.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T23:59:16.826Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

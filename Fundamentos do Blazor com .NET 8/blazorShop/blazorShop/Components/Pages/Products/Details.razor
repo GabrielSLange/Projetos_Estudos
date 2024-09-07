@@ -1,0 +1,56 @@
+﻿@page "/products/{id:int}"
+@inject ApplicationDbContext _context
+@attribute [Authorize]
+@rendermode InteractiveServer
+
+<PageTitle>Detalhar Produto</PageTitle>
+
+@if (product is null)
+{
+    <p class="text-center">
+        <em>Categoria não encontrada</em>
+    </p>
+}
+else
+{
+    <h1>@product.title (@product.id)</h1>
+    <hr />
+
+    <EditForm Model="@product">
+        <div class="mb-3">
+            <label class="form-label">Nome do Produto</label>
+            <InputText class="form-control" @bind-Value="product.title" readonly/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Descrição do Produto</label>
+            <InputText class="form-control" @bind-Value="product.description" readonly />
+        </div>
+        <br />
+        <div class="mb-3">
+            <label class="form-label">Preço do Produto</label>
+            <InputNumber class="form-control" @bind-Value="product.price" readonly />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Categoria</label>
+            <InputText class="form-control" @bind-Value="category.title" readonly />
+        </div>
+        <a href="/products/index">Voltar</a>
+    </EditForm>
+}
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public Product? product { get; set; } = new();
+    public Category? category { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        product = await _context.products
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.id == id);
+        category = await _context.categories
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.id == product.categoryId);            
+    }
+}

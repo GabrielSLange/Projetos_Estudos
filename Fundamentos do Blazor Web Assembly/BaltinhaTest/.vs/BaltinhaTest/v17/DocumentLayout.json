@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor web assembly\\baltinhatest\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor web assembly\\baltinhatest\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor web assembly\\baltinhatest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382B38E9-8CEC-4661-9688-E8F0B59D8B8B}|BaltinhaTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:17:56.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T00:16:23.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BaltinhaTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:15:22.217Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

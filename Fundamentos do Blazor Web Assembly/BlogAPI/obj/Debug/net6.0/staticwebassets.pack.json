@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BlogAPI\\wwwroot\\images\\4bf5c9b3-0817-4469-9a24-c03500b9f56d.jpg",
+      "PackagePath": "staticwebassets\\images\\4bf5c9b3-0817-4469-9a24-c03500b9f56d.jpg"
+    },
+    {
+      "Id": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor Web Assembly\\BlogAPI\\wwwroot\\images\\be75e3c8-0a1b-44db-bd28-58052681a7f5.jpg",
+      "PackagePath": "staticwebassets\\images\\be75e3c8-0a1b-44db-bd28-58052681a7f5.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Blog.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Blog.props",
+      "PackagePath": "build\\Blog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Blog.props",
+      "PackagePath": "buildMultiTargeting\\Blog.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Blog.props",
+      "PackagePath": "buildTransitive\\Blog.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

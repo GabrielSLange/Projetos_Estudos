@@ -1,0 +1,77 @@
+﻿@page "/products/delete/{id:int}"
+
+@inject AppDbContext _context
+@inject NavigationManager _navigationManager
+
+<h1>Delete @_product?.Title</h1>
+
+<EditForm Model="_product" OnValidSubmit="@HandleSubmitAsync">
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="Title" class="form-label">Title</label>
+        <InputText readonly class="form-control" type="text" id="Title" @bind-Value="_product.Title" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <InputNumber readonly class="form-control" type="number" id="Price" @bind-Value="_product.Price" />
+    </div>
+
+    @if (!string.IsNullOrEmpty(_errorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            @_errorMessage
+        </div>
+    }
+
+    <button class="btn btn-danger" type="submit">DELETE</button>
+
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    Product? _product = new();
+    List<Category> _categories = new();
+    string? _errorMessage = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _categories = await _context
+            .categories
+            .AsNoTracking()
+            .ToListAsync();
+
+        _product = await _context
+            .products
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == id);
+
+        if (_product is null) throw new Exception("Produto não encontrado");
+    }
+
+    async Task HandleSubmitAsync()
+    {
+        try
+        {
+            var prod = await _context.
+                products
+                .FirstOrDefaultAsync(x => x.Id == id);
+            if (prod is null) throw new Exception("Produto não encontrato");
+
+            _context.products.Remove(prod);
+            await _context.SaveChangesAsync();
+            _navigationManager.NavigateTo("/products");
+        }
+        catch (Exception ex)
+        {
+            _errorMessage = ex.Message;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor com .net 8\\blazorshop\\blazorshop\\components\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|solutionrelative:blazorshop\\components\\pages\\categories\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor com .net 8\\blazorshop\\blazorshop\\components\\pages\\categories\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|solutionrelative:blazorshop\\components\\pages\\categories\\delete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor com .net 8\\blazorshop\\blazorshop\\components\\pages\\categories\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|solutionrelative:blazorshop\\components\\pages\\categories\\details.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor com .net 8\\blazorshop\\blazorshop\\components\\pages\\categories\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|solutionrelative:blazorshop\\components\\pages\\categories\\edit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|d:\\projetos - dev\\projetos_estudos\\fundamentos do blazor com .net 8\\blazorshop\\blazorshop\\components\\pages\\categories\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88087FA2-B422-44E8-B308-096BDA4F4B78}|blazorShop\\blazorShop.csproj|solutionrelative:blazorshop\\components\\pages\\categories\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Index.razor",
+              "RelativeDocumentMoniker": "blazorShop\\Components\\Pages\\Categories\\Index.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Index.razor",
+              "RelativeToolTip": "blazorShop\\Components\\Pages\\Categories\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T02:10:32.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Edit.razor",
+              "RelativeDocumentMoniker": "blazorShop\\Components\\Pages\\Categories\\Edit.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Edit.razor",
+              "RelativeToolTip": "blazorShop\\Components\\Pages\\Categories\\Edit.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T02:10:31.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Details.razor",
+              "RelativeDocumentMoniker": "blazorShop\\Components\\Pages\\Categories\\Details.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Details.razor",
+              "RelativeToolTip": "blazorShop\\Components\\Pages\\Categories\\Details.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T02:10:30.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Delete.razor",
+              "RelativeDocumentMoniker": "blazorShop\\Components\\Pages\\Categories\\Delete.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Delete.razor",
+              "RelativeToolTip": "blazorShop\\Components\\Pages\\Categories\\Delete.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T02:10:29.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.razor",
+              "DocumentMoniker": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Create.razor",
+              "RelativeDocumentMoniker": "blazorShop\\Components\\Pages\\Categories\\Create.razor",
+              "ToolTip": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do Blazor com .NET 8\\blazorShop\\blazorShop\\Components\\Pages\\Categories\\Create.razor",
+              "RelativeToolTip": "blazorShop\\Components\\Pages\\Categories\\Create.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T02:10:27.056Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

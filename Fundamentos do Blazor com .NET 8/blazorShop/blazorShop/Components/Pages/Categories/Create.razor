@@ -1,0 +1,37 @@
+﻿@page "/categories/create"
+@inject NavigationManager _navigation
+@inject ApplicationDbContext _context
+@attribute [Authorize]
+@rendermode InteractiveServer
+
+<PageTitle>Criar Categoria</PageTitle>
+
+<h1>Nova categoria</h1>
+<hr/>
+
+<EditForm Model="@category" OnValidSubmit="OnValidSubmitAsync">
+    <DataAnnotationsValidator/><ValidationSummary/>
+    <div class="mb-3">
+        <label class="form-label">Nome da categoria</label>
+        <InputText class="form-control" @bind-Value="category.title"/>
+    </div>
+    <button class="btn btn-primary" type="submit">Criar</button>
+    <a href="/categories/index">Cancel</a>
+</EditForm>
+
+@code {
+    public Category category { get; set; } = new();
+
+
+    protected override void  OnInitialized()
+    {
+
+    }
+
+    public async Task OnValidSubmitAsync()
+    {
+        await _context.categories.AddAsync(category);
+        await _context.SaveChangesAsync();
+        _navigation.NavigateTo("/categories/index");
+    }
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BaltinhaTest.props" />
+</Project>

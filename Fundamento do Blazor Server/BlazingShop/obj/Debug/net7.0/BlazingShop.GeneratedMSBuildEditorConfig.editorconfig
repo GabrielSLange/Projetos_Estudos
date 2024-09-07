@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazingShop
+build_property.RootNamespace = BlazingShop
+build_property.ProjectDir = D:\Projetos - Dev\Projetos_Estudos\Fundamento do Blazor Server\BlazingShop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projetos - Dev\Projetos_Estudos\Fundamento do Blazor Server\BlazingShop
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Products/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Products/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Products/Edit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Products/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-qb8r1fj9y6
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-y1olo2g61n
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos - Dev/Projetos_Estudos/Fundamento do Blazor Server/BlazingShop/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

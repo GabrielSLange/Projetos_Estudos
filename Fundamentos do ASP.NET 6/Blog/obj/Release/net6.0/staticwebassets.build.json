@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "rnUMetBIm3HcbWIAjPNuYWmAYzrdltKZRsYrMdIB5pE=",
+  "Source": "Blog",
+  "BasePath": "_content/Blog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blog\\wwwroot",
+      "Source": "Blog",
+      "ContentRoot": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do ASP.NET 6\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do ASP.NET 6\\Blog\\wwwroot\\images\\4bf5c9b3-0817-4469-9a24-c03500b9f56d.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do ASP.NET 6\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "images/4bf5c9b3-0817-4469-9a24-c03500b9f56d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4bf5c9b3-0817-4469-9a24-c03500b9f56d.jpg"
+    },
+    {
+      "Identity": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do ASP.NET 6\\Blog\\wwwroot\\images\\be75e3c8-0a1b-44db-bd28-58052681a7f5.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos - Dev\\Projetos_Estudos\\Fundamentos do ASP.NET 6\\Blog\\wwwroot\\",
+      "BasePath": "_content/Blog",
+      "RelativePath": "images/be75e3c8-0a1b-44db-bd28-58052681a7f5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\be75e3c8-0a1b-44db-bd28-58052681a7f5.jpg"
+    }
+  ]
+}

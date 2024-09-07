@@ -1,0 +1,90 @@
+﻿@page "/products/edit/{id:int}"
+
+@inject AppDbContext _context
+@inject NavigationManager _navigationManager
+
+<h1>Edit @_product?.Title</h1>
+
+<EditForm Model="_product" OnValidSubmit="@HandleSubmitAsync">
+
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="Title" class="form-label">Title</label>
+        <InputText class="form-control" type="text" id="Title" @bind-Value="_product.Title" />
+    </div>
+
+    <div class="mb-3">
+        <label for="Price" class="form-label">Price</label>
+        <InputNumber class="form-control" type="number" id="Price" @bind-Value="_product.Price" />
+    </div>
+
+    <div class="mb-3">
+        <label for="CategoryId" class="form-label">Category</label>
+        <InputSelect id="CategoryId" @bind-Value="_product.CategoryId" class="form-control">
+            @foreach (var entity in _categories)
+            {
+                <option value="@entity.Id">@entity.Title</option>
+            }
+        </InputSelect>
+    </div>
+
+    @if (!string.IsNullOrEmpty(_errorMessage))
+    {
+        <div class="alert alert-danger" role="alert">
+            @_errorMessage
+        </div>
+    }
+
+    <button class="btn btn-success" type="submit">Save</button>
+
+</EditForm>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    Product? _product = new();
+    List<Category> _categories = new();
+    string? _errorMessage = null;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        _product = await _context
+           .products
+           .AsNoTracking()
+           .FirstOrDefaultAsync(x => x.Id == id);
+
+        _categories = await _context
+            .categories
+            .AsNoTracking()
+            .ToListAsync();       
+
+        if (_product is null) throw new Exception("Produto não encontrado");
+    }
+
+    async Task HandleSubmitAsync()
+    {
+        try
+        {
+            var prod = await _context.
+                products
+                .FirstOrDefaultAsync(x => x.Id == id);
+            if (prod is null) throw new Exception("Produto não encontrato");
+
+            prod.Title = _product.Title;
+            prod.Price = _product.Price;
+            prod.CategoryId = _product.CategoryId;
+
+            _context.products.Update(prod);
+            await _context.SaveChangesAsync();
+            _navigationManager.NavigateTo("/products");
+        }
+        catch(Exception ex)
+        {
+            _errorMessage = ex.Message;
+        }
+    }
+}
